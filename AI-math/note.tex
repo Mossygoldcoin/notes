@@ -2,8 +2,8 @@
 \usepackage{import}
 \inputfrom{../format/}{format}
 
-\title{Calculus (1)}
-\author{Siwon Yun}
+\title{AI-math (1)}
+\author{Juneyeong Yoon}
 \date{\today}
 
 \begin{document}
@@ -17,7 +17,7 @@
 \newpage
 
 \chapter{앞으로 사용할 수학 표현}
-\foreach \n in {날짜1, 날짜2}
+\foreach \n in {12}
 {
   \index{-mar \n}
   \subfile{mar/\n}
@@ -26,21 +26,4 @@
 \toctrue
 \definitionindex
 \tocfalse
-%%% 선택
-\begin{appendices}
-\chapter{Appendix}
-\foreach \n in {1}
-{
-  \subfile{appendix/\n}
-}
-\end{appendices}
-
-\toctrue
-\bibliography{.ref}
-* All charts, graphs and figures created by \printauthor{} unless otherwise noted.
-\bibliographystyle{unsrt}
-
-\definitionindex
-\tocfalse
-%%%
 \end{document}
